@@ -15,8 +15,8 @@
 
   <!-- SEO metas -->
   <meta name="description" content="To include a CSS file in Moodle:">
-  <link rel="canonical" href="http://kiran.im//include-css-or-javascript-in-moodle/">
-  <link rel="alternate" type="application/rss+xml" title="Sai Kiran Sripada" href="http://kiran.im//feed.xml">
+  <link rel="canonical" href="http://localhost:4000/include-css-or-javascript-in-moodle/">
+  <link rel="alternate" type="application/rss+xml" title="Sai Kiran Sripada" href="http://localhost:4000/feed.xml">
 
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Lora:400,400i,700" rel="stylesheet">
 
@@ -72,18 +72,22 @@
     <p>To include a CSS file in Moodle:</p>
 
 <figure class="highlight">
-  <pre><code class="language-php" data-lang="php">$PAGE-&gt;requires-&gt;css(new moodle_url(/path/to/file.css));</code></pre>
+  <pre><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span>
+  <span class="nv">$PAGE</span><span class="o">-&gt;</span><span class="na">requires</span><span class="o">-&gt;</span><span class="na">css</span><span class="p">(</span><span class="k">new</span> <span class="nx">moodle_url</span><span class="p">(</span><span class="s1">'/path/to/file.css'</span><span class="p">));</span>
+<span class="cp">?&gt;</span></code></pre>
 </figure>
 
 <p>To include a JavaScript file in Moodle:</p>
 
 <figure class="highlight">
-  <pre><code class="language-php" data-lang="php">$PAGE-&gt;requires-&gt;js(new moodle_url(/path/to/file.js));</code></pre>
+  <pre><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span>
+  <span class="nv">$PAGE</span><span class="o">-&gt;</span><span class="na">requires</span><span class="o">-&gt;</span><span class="na">js</span><span class="p">(</span><span class="k">new</span> <span class="nx">moodle_url</span><span class="p">(</span><span class="s1">'/path/to/file.js'</span><span class="p">));</span>
+<span class="cp">?&gt;</span></code></pre>
 </figure>
 
 <p>Provide the relative path to the file (excluding document root).</p>
 
-<p>When writing a custom plugin, place CSS in a file called <code class="highlighter-rouge">styles.css</code> in the base directory of your plugin <code class="highlighter-rouge">/plugin/styles.css</code>. Moodle will automatically load the file for you.</p>
+<p>When writing a custom plugin, place CSS in a file called <code class="highlighter-rouge">styles.css</code> in the base directory of your plugin <code class="highlighter-rouge">/plugin/styles.css</code>. Moodle will automatically load the CSS file for you.</p>
 
   </div>
 

@@ -15,8 +15,8 @@
 
   <!-- SEO metas -->
   <meta name="description" content="Commands to start, stop, reload or restart an Apache 2 HTTP server.">
-  <link rel="canonical" href="http://kiran.im//stopping-and-restarting-apache-server/">
-  <link rel="alternate" type="application/rss+xml" title="Sai Kiran Sripada" href="http://kiran.im//feed.xml">
+  <link rel="canonical" href="http://localhost:4000/stopping-and-restarting-apache-server/">
+  <link rel="alternate" type="application/rss+xml" title="Sai Kiran Sripada" href="http://localhost:4000/feed.xml">
 
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Lora:400,400i,700" rel="stylesheet">
 
@@ -74,37 +74,37 @@
 <h2 id="ubuntu">Ubuntu</h2>
 
 <figure class="highlight">
-  <pre><code class="language-apache" data-lang="apache">sudo service apache2 restart</code></pre>
+  <pre><code class="language-shell" data-lang="shell">sudo service apache2 restart</code></pre>
 </figure>
 
 <p>OR</p>
 
 <figure class="highlight">
-  <pre><code class="language-apache" data-lang="apache">sudo /etc/init.d/apache2 restart</code></pre>
+  <pre><code class="language-shell" data-lang="shell">sudo /etc/init.d/apache2 restart</code></pre>
 </figure>
 
 <h2 id="cent-os-6">Cent OS 6</h2>
 
 <figure class="highlight">
-  <pre><code class="language-apache" data-lang="apache">sudo service httpd restart</code></pre>
+  <pre><code class="language-shell" data-lang="shell">sudo service httpd restart</code></pre>
 </figure>
 
 <p>OR</p>
 
 <figure class="highlight">
-  <pre><code class="language-apache" data-lang="apache">sudo /etc/init.d/httpd restart</code></pre>
+  <pre><code class="language-shell" data-lang="shell">sudo /etc/init.d/httpd restart</code></pre>
 </figure>
 
 <h2 id="cent-os-7">Cent OS 7</h2>
 
 <figure class="highlight">
-  <pre><code class="language-apache" data-lang="apache">sudo systemctl restart httpd</code></pre>
+  <pre><code class="language-shell" data-lang="shell">sudo systemctl restart httpd</code></pre>
 </figure>
 
 <p>OR</p>
 
 <figure class="highlight">
-  <pre><code class="language-apache" data-lang="apache">sudo /bin/systemctl restart httpd.service</code></pre>
+  <pre><code class="language-shell" data-lang="shell">sudo /bin/systemctl restart httpd.service</code></pre>
 </figure>
 
 <p>Use <code class="highlighter-rouge">sudo</code> when logged in as a non-root user.</p>
