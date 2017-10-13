@@ -523,7 +523,7 @@ kbd {
 
   .site-nav {
     float: right;
-    width: 100%;
+    width: 80%;
     margin-top: 0.5rem;
     justify-content: space-around;
     font-size: 1.25rem; }
