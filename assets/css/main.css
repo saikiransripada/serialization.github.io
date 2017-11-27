@@ -597,6 +597,11 @@ kbd {
   .emoji.left {
     margin-left: .3rem; }
 
+.emoji {
+  width: 1em;
+  height: 1em;
+  vertical-align: bottom; }
+
 ol.pager {
   list-style-type: none;
   padding: 0;
