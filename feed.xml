@@ -3,8 +3,8 @@
   <channel>
     <title></title>
     <description></description>
-    <link>http://localhost:4000</link>
-    <atom:link href="http://localhost:4000http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.kiran.im</link>
+    <atom:link href="https://www.kiran.imhttps://www.kiran.im/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>List all views in a MySQL database</title>
@@ -23,8 +23,8 @@
 &lt;p&gt;You must have a database selected when using the first one. Use latter without selecting a database.&lt;/p&gt;
 </description>
         <pubDate>Thu, 17 Mar 2016 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/list-all-views-in-a-mysql-database/</link>
-        <guid isPermaLink="true">http://localhost:4000/list-all-views-in-a-mysql-database/</guid>
+        <link>https://www.kiran.im/list-all-views-in-a-mysql-database/</link>
+        <guid isPermaLink="true">https://www.kiran.im/list-all-views-in-a-mysql-database/</guid>
       </item>
     
       <item>
@@ -57,8 +57,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 19 Feb 2016 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/font-from-origin-has-been-blocked-from-loading/</link>
-        <guid isPermaLink="true">http://localhost:4000/font-from-origin-has-been-blocked-from-loading/</guid>
+        <link>https://www.kiran.im/font-from-origin-has-been-blocked-from-loading/</link>
+        <guid isPermaLink="true">https://www.kiran.im/font-from-origin-has-been-blocked-from-loading/</guid>
       </item>
     
       <item>
@@ -68,8 +68,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Wed, 20 Jan 2016 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/always-backup-your-database/</link>
-        <guid isPermaLink="true">http://localhost:4000/always-backup-your-database/</guid>
+        <link>https://www.kiran.im/always-backup-your-database/</link>
+        <guid isPermaLink="true">https://www.kiran.im/always-backup-your-database/</guid>
       </item>
     
       <item>
@@ -95,8 +95,8 @@
 &lt;p&gt;You must have a database selected before you run these commands.&lt;/p&gt;
 </description>
         <pubDate>Thu, 17 Dec 2015 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/get-table-structure-in-mysql/</link>
-        <guid isPermaLink="true">http://localhost:4000/get-table-structure-in-mysql/</guid>
+        <link>https://www.kiran.im/get-table-structure-in-mysql/</link>
+        <guid isPermaLink="true">https://www.kiran.im/get-table-structure-in-mysql/</guid>
       </item>
     
       <item>
@@ -116,8 +116,8 @@
 &lt;p&gt;You must have a database selected when using the first one. Use latter without selecting a database.&lt;/p&gt;
 </description>
         <pubDate>Wed, 16 Dec 2015 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/list-all-tables-in-a-mysql-database/</link>
-        <guid isPermaLink="true">http://localhost:4000/list-all-tables-in-a-mysql-database/</guid>
+        <link>https://www.kiran.im/list-all-tables-in-a-mysql-database/</link>
+        <guid isPermaLink="true">https://www.kiran.im/list-all-tables-in-a-mysql-database/</guid>
       </item>
     
       <item>
@@ -135,8 +135,8 @@
 &lt;/figure&gt;
 </description>
         <pubDate>Thu, 10 Dec 2015 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/check-centos-version/</link>
-        <guid isPermaLink="true">http://localhost:4000/check-centos-version/</guid>
+        <link>https://www.kiran.im/check-centos-version/</link>
+        <guid isPermaLink="true">https://www.kiran.im/check-centos-version/</guid>
       </item>
     
       <item>
@@ -156,8 +156,8 @@
 &lt;p&gt;Using options &lt;code class=&quot;highlighter-rouge&quot;&gt;-c&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;-d&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;-r&lt;/code&gt; displays codename, description (OS name &amp;amp; release number) and release number respectively whereas &lt;code class=&quot;highlighter-rouge&quot;&gt;-a&lt;/code&gt; option displays the information with &lt;code class=&quot;highlighter-rouge&quot;&gt;-cdr&lt;/code&gt; combined.&lt;/p&gt;
 </description>
         <pubDate>Wed, 09 Dec 2015 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/check-ubuntu-version/</link>
-        <guid isPermaLink="true">http://localhost:4000/check-ubuntu-version/</guid>
+        <link>https://www.kiran.im/check-ubuntu-version/</link>
+        <guid isPermaLink="true">https://www.kiran.im/check-ubuntu-version/</guid>
       </item>
     
       <item>
@@ -205,8 +205,8 @@
 &lt;p&gt;Replace &lt;code class=&quot;highlighter-rouge&quot;&gt;restart&lt;/code&gt; with &lt;code class=&quot;highlighter-rouge&quot;&gt;start&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;stop&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;reload&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;status&lt;/code&gt; to start, stop, reload or check status of an Apache web server respectively. Use &lt;code class=&quot;highlighter-rouge&quot;&gt;reload&lt;/code&gt; to restart the server without kicking off your website visitors.&lt;/p&gt;
 </description>
         <pubDate>Fri, 04 Dec 2015 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/stopping-and-restarting-apache-server/</link>
-        <guid isPermaLink="true">http://localhost:4000/stopping-and-restarting-apache-server/</guid>
+        <link>https://www.kiran.im/stopping-and-restarting-apache-server/</link>
+        <guid isPermaLink="true">https://www.kiran.im/stopping-and-restarting-apache-server/</guid>
       </item>
     
       <item>
@@ -220,8 +220,8 @@
 &lt;/figure&gt;
 </description>
         <pubDate>Tue, 24 Nov 2015 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/get-the-file-extension-in-php/</link>
-        <guid isPermaLink="true">http://localhost:4000/get-the-file-extension-in-php/</guid>
+        <link>https://www.kiran.im/get-the-file-extension-in-php/</link>
+        <guid isPermaLink="true">https://www.kiran.im/get-the-file-extension-in-php/</guid>
       </item>
     
       <item>
@@ -231,8 +231,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Sat, 21 Nov 2015 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/never-delete-a-record-from-database/</link>
-        <guid isPermaLink="true">http://localhost:4000/never-delete-a-record-from-database/</guid>
+        <link>https://www.kiran.im/never-delete-a-record-from-database/</link>
+        <guid isPermaLink="true">https://www.kiran.im/never-delete-a-record-from-database/</guid>
       </item>
     
   </channel>
