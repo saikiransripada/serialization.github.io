@@ -9,13 +9,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>
-  Always backup your database | Sai Kiran Sripada
+  Find the largest number in an array | Sai Kiran Sripada
   
   </title>
 
   <!-- SEO metas -->
-  <meta name="description" content="  Always backup your database before playing with it! Better safe than sorry!">
-  <link rel="canonical" href="/always-backup-your-database/">
+  <meta name="description" content="Find the largest number in an array using Python.">
+  <link rel="canonical" href="/find-the-largest-number-in-an-array/">
   <link rel="alternate" type="application/rss+xml" title="Sai Kiran Sripada" href="/feed.xml">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Lora:400,400i,700" rel="stylesheet">
 
@@ -67,22 +67,36 @@
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Always backup your database</h1>
+    <h1 class="post-title">Find the largest number in an array</h1>
     <div class="post-date">
       <span class="categories-list">
         
-        <a href="/categories/Protip">Protip</a>
+        <a href="/categories/data-structures">data structures</a>, <a href="/categories/arrays">arrays</a>, <a href="/categories/basic-problems">basic problems</a>
       </span>
-      <time datetime="2016-01-20 00:00:00 +0530">
-        ~ Jan 20, 2016
+      <time datetime="2018-06-17 00:00:00 +0530">
+        ~ Jun 17, 2018
       </time>
     </div>
   </header>
 
   <div class="post-content pretty-links">
-    <blockquote>
-  <p>Always backup your database before playing with it! Better safe than sorry!</p>
-</blockquote>
+    <p>Find the largest number in an array using Python.</p>
+
+<figure class="highlight">
+  <pre><code class="language-python" data-lang="python"><span class="c"># Find the largest number in an array</span>
+<span class="k">def</span> <span class="nf">largestElement</span><span class="p">(</span><span class="nb">input</span><span class="p">):</span>
+    <span class="nb">max</span> <span class="o">=</span> <span class="bp">None</span>
+
+    <span class="k">for</span> <span class="n">value</span> <span class="ow">in</span> <span class="nb">input</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">value</span> <span class="o">&gt;</span> <span class="nb">max</span><span class="p">:</span>
+            <span class="nb">max</span> <span class="o">=</span> <span class="n">value</span>
+    <span class="k">return</span> <span class="nb">max</span>
+
+<span class="c"># Driver code</span>
+<span class="nb">input</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">20</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="o">-</span><span class="mi">100</span><span class="p">]</span>
+<span class="n">result</span> <span class="o">=</span> <span class="n">largestElement</span><span class="p">(</span><span class="nb">input</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">result</span></code></pre>
+</figure>
 
   </div>
 
