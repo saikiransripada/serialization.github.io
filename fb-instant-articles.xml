@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title></title>
-    <link>http://localhost:4000</link>
+    <link>https://www.saikiransripada.com</link>
     <description>
       This blog is a timeline of my life. A blog to document my ideas, research and personal feelings for future reference.
     </description>
@@ -10,7 +10,7 @@
         
             <item>
                 <title>Font from origin has been blocked from loading by Cross-Origin Resource Sharing policy</title>
-                <link>http://localhost:4000/font-from-origin-has-been-blocked-from-loading/</link>
+                <link>https://www.saikiransripada.com/font-from-origin-has-been-blocked-from-loading/</link>
                 <content:encoded>
                     <![CDATA[
                     <p>Custom web fonts via CDN requires CORS (Cross-Origin Resource Sharing) configuration to display fonts properly.</p>
@@ -44,7 +44,7 @@
         
             <item>
                 <title>Always backup your database</title>
-                <link>http://localhost:4000/always-backup-your-database/</link>
+                <link>https://www.saikiransripada.com/always-backup-your-database/</link>
                 <content:encoded>
                     <![CDATA[
                     <blockquote>
@@ -65,7 +65,7 @@
         
             <item>
                 <title>Get the file extension in PHP</title>
-                <link>http://localhost:4000/get-the-file-extension-in-php/</link>
+                <link>https://www.saikiransripada.com/get-the-file-extension-in-php/</link>
                 <content:encoded>
                     <![CDATA[
                     <p>A simple function to get the extension of a file. Meet <a href="https://php.net/pathinfo" target="_blank">pathinfo()</a>.</p>
@@ -87,7 +87,7 @@
         
             <item>
                 <title>Include CSS or JavaScript in Moodle</title>
-                <link>http://localhost:4000/include-css-or-javascript-in-moodle/</link>
+                <link>https://www.saikiransripada.com/include-css-or-javascript-in-moodle/</link>
                 <content:encoded>
                     <![CDATA[
                     <p>To include a CSS file in Moodle:</p>

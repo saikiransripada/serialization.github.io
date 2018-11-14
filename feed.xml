@@ -3,8 +3,8 @@
   <channel>
     <title>Sai Kiran Sripada</title>
     <description>This blog is a timeline of my life. A blog to document my ideas, research and personal feelings for future reference.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.saikiransripada.com/</link>
+    <atom:link href="https://www.saikiransripada.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>Font from origin has been blocked from loading by Cross-Origin Resource Sharing policy</title>
@@ -26,8 +26,8 @@
 &lt;p&gt;When &lt;code class=&quot;highlighter-rouge&quot;&gt;add&lt;/code&gt; is used, the response header will be added to the existing set of headers; Whereas with &lt;code class=&quot;highlighter-rouge&quot;&gt;set&lt;/code&gt; the response header will be set, replacing any header with this name.&lt;/p&gt;
 </description>
         <pubDate>Fri, 19 Feb 2016 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/font-from-origin-has-been-blocked-from-loading/</link>
-        <guid isPermaLink="true">http://localhost:4000/font-from-origin-has-been-blocked-from-loading/</guid>
+        <link>https://www.saikiransripada.com/font-from-origin-has-been-blocked-from-loading/</link>
+        <guid isPermaLink="true">https://www.saikiransripada.com/font-from-origin-has-been-blocked-from-loading/</guid>
       </item>
     
       <item>
@@ -37,8 +37,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 24 Nov 2015 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/always-backup-your-database/</link>
-        <guid isPermaLink="true">http://localhost:4000/always-backup-your-database/</guid>
+        <link>https://www.saikiransripada.com/always-backup-your-database/</link>
+        <guid isPermaLink="true">https://www.saikiransripada.com/always-backup-your-database/</guid>
       </item>
     
       <item>
@@ -49,8 +49,8 @@
 
 </description>
         <pubDate>Tue, 24 Nov 2015 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/get-the-file-extension-in-php/</link>
-        <guid isPermaLink="true">http://localhost:4000/get-the-file-extension-in-php/</guid>
+        <link>https://www.saikiransripada.com/get-the-file-extension-in-php/</link>
+        <guid isPermaLink="true">https://www.saikiransripada.com/get-the-file-extension-in-php/</guid>
       </item>
     
       <item>
@@ -68,8 +68,8 @@
 &lt;p&gt;When writing a custom plugin, place CSS in a file called &lt;code class=&quot;highlighter-rouge&quot;&gt;styles.css&lt;/code&gt; in the base directory of your plugin &lt;code class=&quot;highlighter-rouge&quot;&gt;/plugin/styles.css&lt;/code&gt;. Moodle will automatically load the CSS file for you.&lt;/p&gt;
 </description>
         <pubDate>Fri, 20 Nov 2015 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/include-css-or-javascript-in-moodle/</link>
-        <guid isPermaLink="true">http://localhost:4000/include-css-or-javascript-in-moodle/</guid>
+        <link>https://www.saikiransripada.com/include-css-or-javascript-in-moodle/</link>
+        <guid isPermaLink="true">https://www.saikiransripada.com/include-css-or-javascript-in-moodle/</guid>
       </item>
     
   </channel>
