@@ -10,7 +10,7 @@
         <title>BookMyShow - Get a notification when the movie tickets are available</title>
         <description>&lt;p&gt;This python script checks if movie tickets are available for a showtime and send an email notification. I’ve written this in &lt;a href=&quot;https://www.python.org/&quot; target=&quot;_blank&quot;&gt;Python 3&lt;/a&gt; using &lt;a href=&quot;https://www.crummy.com/software/BeautifulSoup/&quot; target=&quot;_blank&quot;&gt;BeautifulSoup&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Run the script using &lt;code class=&quot;highlighter-rouge&quot;&gt;python3 app.py&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Run the script using &lt;code class=&quot;highlighter-rouge&quot;&gt;python3 app.py&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Please feel free to fork and file issues or pull requests.
 &lt;a href=&quot;https://github.com/saikiransripada/bookmyshow&quot; target=&quot;_blank&quot;&gt;https://github.com/saikiransripada/bookmyshow&lt;/a&gt;&lt;/p&gt;

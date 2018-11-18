@@ -15,7 +15,7 @@
                     <![CDATA[
                     <p>This python script checks if movie tickets are available for a showtime and send an email notification. I’ve written this in <a href="https://www.python.org/" target="_blank">Python 3</a> using <a href="https://www.crummy.com/software/BeautifulSoup/" target="_blank">BeautifulSoup</a>.</p>
 
-<p>Run the script using <code class="highlighter-rouge">python3 app.py</code></p>
+<p>Run the script using <code class="highlighter-rouge">python3 app.py</code>.</p>
 
 <p>Please feel free to fork and file issues or pull requests.
 <a href="https://github.com/saikiransripada/bookmyshow" target="_blank">https://github.com/saikiransripada/bookmyshow</a></p>
