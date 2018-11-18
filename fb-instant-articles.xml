@@ -9,6 +9,30 @@
     
         
             <item>
+                <title>BookMyShow - Get a notification when the movie tickets are available</title>
+                <link>https://www.saikiransripada.com/bookmyshow-get-a-notification-when-the-movie-tickets-are-available/</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>This python script checks if movie tickets are available for a showtime and send an email notification. I’ve written this in <a href="https://www.python.org/" target="_blank">Python 3</a> using <a href="https://www.crummy.com/software/BeautifulSoup/" target="_blank">BeautifulSoup</a>.</p>
+
+<p>Run the script using <code class="highlighter-rouge">python3 app.py</code></p>
+
+<p>Please feel free to fork and file issues or pull requests.
+<a href="https://github.com/saikiransripada/bookmyshow" target="_blank">https://github.com/saikiransripada/bookmyshow</a></p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/bookmyshow-get-a-notification-when-the-movie-tickets-are-available/</guid>
+                <description>
+                    
+                </description>
+                <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
+                <author>Sai Kiran Sripada</author>
+            </item>
+        
+    
+        
+            <item>
                 <title>Font from origin has been blocked from loading by Cross-Origin Resource Sharing policy</title>
                 <link>https://www.saikiransripada.com/font-from-origin-has-been-blocked-from-loading/</link>
                 <content:encoded>
