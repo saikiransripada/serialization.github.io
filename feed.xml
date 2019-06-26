@@ -5,9 +5,9 @@
     <description></description>
     <link>https://www.saikiransripada.com//</link>
     <atom:link href="https://www.saikiransripada.com//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 26 Jun 2019 22:45:39 +0530</pubDate>
-    <lastBuildDate>Wed, 26 Jun 2019 22:45:39 +0530</lastBuildDate>
-    <generator>Jekyll v3.7.4</generator>
+    <pubDate>Wed, 26 Jun 2019 17:22:59 +0000</pubDate>
+    <lastBuildDate>Wed, 26 Jun 2019 17:22:59 +0000</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>BookMyShow - Get a notification when the movie tickets are available</title>
@@ -18,7 +18,7 @@
 &lt;p&gt;Please feel free to fork and file issues or pull requests.
 &lt;a href=&quot;https://github.com/saikiransripada/bookmyshow&quot; target=&quot;_blank&quot;&gt;https://github.com/saikiransripada/bookmyshow&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 18 Nov 2018 00:00:00 +0530</pubDate>
+        <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
         <link>https://www.saikiransripada.com//bookmyshow-get-a-notification-when-the-movie-tickets-are-available</link>
         <guid isPermaLink="true">https://www.saikiransripada.com//bookmyshow-get-a-notification-when-the-movie-tickets-are-available</guid>
         
@@ -46,7 +46,7 @@
 
 &lt;p&gt;When &lt;code class=&quot;highlighter-rouge&quot;&gt;add&lt;/code&gt; is used, the response header will be added to the existing set of headers; Whereas with &lt;code class=&quot;highlighter-rouge&quot;&gt;set&lt;/code&gt; the response header will be set, replacing any header with this name.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 19 Feb 2016 00:00:00 +0530</pubDate>
+        <pubDate>Fri, 19 Feb 2016 00:00:00 +0000</pubDate>
         <link>https://www.saikiransripada.com//font-from-origin-has-been-blocked-from-loading</link>
         <guid isPermaLink="true">https://www.saikiransripada.com//font-from-origin-has-been-blocked-from-loading</guid>
         
@@ -61,7 +61,7 @@
   &lt;p&gt;Always backup your database before playing with it! Better safe than sorry!&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-        <pubDate>Tue, 24 Nov 2015 00:00:00 +0530</pubDate>
+        <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
         <link>https://www.saikiransripada.com//always-backup-your-database</link>
         <guid isPermaLink="true">https://www.saikiransripada.com//always-backup-your-database</guid>
         
@@ -77,7 +77,7 @@
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$extension&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;pathinfo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;PATHINFO_EXTENSION&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 </description>
-        <pubDate>Tue, 24 Nov 2015 00:00:00 +0530</pubDate>
+        <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
         <link>https://www.saikiransripada.com//get-the-file-extension-in-php</link>
         <guid isPermaLink="true">https://www.saikiransripada.com//get-the-file-extension-in-php</guid>
         
@@ -100,7 +100,7 @@
 
 &lt;p&gt;When writing a custom plugin, place CSS in a file called &lt;code class=&quot;highlighter-rouge&quot;&gt;styles.css&lt;/code&gt; in the base directory of your plugin &lt;code class=&quot;highlighter-rouge&quot;&gt;/plugin/styles.css&lt;/code&gt;. Moodle will automatically load the CSS file for you.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 20 Nov 2015 00:00:00 +0530</pubDate>
+        <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
         <link>https://www.saikiransripada.com//include-css-or-javascript-in-moodle</link>
         <guid isPermaLink="true">https://www.saikiransripada.com//include-css-or-javascript-in-moodle</guid>
         
