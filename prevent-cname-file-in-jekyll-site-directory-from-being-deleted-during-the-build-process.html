@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="/css/style.css">
     <link href='//fonts.googleapis.com/css?family=Montserrat:700,500,400' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
-    <link rel="canonical" href="https://www.saikiransripada.com//include-css-or-javascript-in-moodle">
+    <link rel="canonical" href="https://www.saikiransripada.com//prevent-cname-file-in-jekyll-site-directory-from-being-deleted-during-the-build-process">
     <link rel="shortcut icon" href="/favicon.png">
-    <title>Include CSS or JavaScript in Moodle | Sai Kiran Sripada</title>
+    <title>Prevent CNAME file in Jekyll _site directory from being deleted during the build process | Sai Kiran Sripada</title>
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -49,30 +49,47 @@
         
           <div class="col-sm-12 col-md-8">
             <div class="post-header">
-  <h1 class="post-title-main">Include CSS or JavaScript in Moodle</h1>
+  <h1 class="post-title-main">Prevent CNAME file in Jekyll _site directory from being deleted during the build process</h1>
   <div class="post-meta">
     <div class="text-muted pull-left">
-        Nov 20, 2015
+        Jun 29, 2019
     </div>
-    <a href="moodle">
+    <a href="jekyll">
         <div class="badge badge-primary pull-right">
-            moodle
+            jekyll
         </div>
     </a>
 </div>
 </div>
 <div class="post-content">
-  <p>To include a CSS file in Moodle:</p>
+  <p>In Jekyll, the <code class="highlighter-rouge">_site</code> folder gets deleted and rebuilt after every change or build execution. If you have a custom domain, you may have to copy the CNAME file after every Jekyll build.</p>
 
-<figure class="highlight"><pre><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span> <span class="nv">$PAGE</span><span class="o">-&gt;</span><span class="na">requires</span><span class="o">-&gt;</span><span class="na">css</span><span class="p">(</span><span class="k">new</span> <span class="nx">moodle_url</span><span class="p">(</span><span class="s1">'/path/to/file.css'</span><span class="p">));</span> <span class="cp">?&gt;</span></code></pre></figure>
+<p>You can use <code class="highlighter-rouge">keep_files</code> option in <code class="highlighter-rouge">_config.yml</code> to prevent CNAME file in the <code class="highlighter-rouge">_site</code> directory from being deleted during the build process.</p>
 
-<p>To include a JavaScript file in Moodle:</p>
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">keep_files</span><span class="pi">:</span> <span class="pi">[</span><span class="s1">'</span><span class="s">CNAME'</span><span class="pi">]</span></code></pre></figure>
 
-<figure class="highlight"><pre><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span> <span class="nv">$PAGE</span><span class="o">-&gt;</span><span class="na">requires</span><span class="o">-&gt;</span><span class="na">js</span><span class="p">(</span><span class="k">new</span> <span class="nx">moodle_url</span><span class="p">(</span><span class="s1">'/path/to/file.js'</span><span class="p">));</span> <span class="cp">?&gt;</span></code></pre></figure>
+<p>If you are using Travis CI, you can copy the CNAME file to the <code class="highlighter-rouge">_site</code> directory after the build process. Here’s a sample <code class="highlighter-rouge">.travis.yml</code> configuration that you can use:</p>
 
-<p>Provide the relative path to the file (excluding document root).</p>
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">language</span><span class="pi">:</span> <span class="s">ruby</span>
+<span class="na">cache</span><span class="pi">:</span> <span class="s">bundler</span>
+<span class="na">branches</span><span class="pi">:</span>
+  <span class="na">only</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">dev</span>
+<span class="na">script</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">JEKYLL_ENV=production bundle exec jekyll build --destination _site</span>
+  <span class="pi">-</span> <span class="s">cp CNAME ./_site/CNAME</span>
+<span class="na">deploy</span><span class="pi">:</span>
+  <span class="na">provider</span><span class="pi">:</span> <span class="s">pages</span>
+  <span class="na">local-dir</span><span class="pi">:</span> <span class="s">./_site</span>
+  <span class="na">target-branch</span><span class="pi">:</span> <span class="s">master</span>
+  <span class="na">email</span><span class="pi">:</span> <span class="s">deploy@travis-ci.org</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">Deployment Bot</span>
+  <span class="na">skip-cleanup</span><span class="pi">:</span> <span class="no">true</span>
+  <span class="na">github-token</span><span class="pi">:</span> <span class="s">$GITHUB_TOKEN</span>
+  <span class="na">keep-history</span><span class="pi">:</span> <span class="no">true</span>
+  <span class="na">on</span><span class="pi">:</span>
+    <span class="na">branch</span><span class="pi">:</span> <span class="s">dev</span></code></pre></figure>
 
-<p>When writing a custom plugin, place CSS in a file called <code class="highlighter-rouge">styles.css</code> in the base directory of your plugin <code class="highlighter-rouge">/plugin/styles.css</code>. Moodle will automatically load the CSS file for you.</p>
 
 </div>
 <div class="post-footer">
@@ -82,13 +99,13 @@
         
         <div class="col-sm-12 col-md-6 post-nav pull-left">
           
-          <h3 class="section-header">
-            <a href="/get-the-file-extension-in-php" class="btn btn-primary btn-sm">&laquo; Newer Entries</a>
-          </h3>
-          
         </div>
   
         <div class="col-sm-12 col-md-6 post-nav pull-right text-right">
+          
+          <h3 class="section-header">
+            <a href="/bookmyshow-get-a-notification-when-the-movie-tickets-are-available" class="btn btn-primary btn-sm">Older Entries &raquo;</a>
+          </h3>
           
         </div>
       </div>
@@ -98,10 +115,6 @@
   <h3 class="section-header">Related Posts</h3>
   <div class="related-posts">
     <ul>
-      
-      <li>
-        <a href="/prevent-cname-file-in-jekyll-site-directory-from-being-deleted-during-the-build-process" class="post-link">Prevent CNAME file in Jekyll _site directory from being deleted during the build process</a>
-      </li>
       
       <li>
         <a href="/bookmyshow-get-a-notification-when-the-movie-tickets-are-available" class="post-link">BookMyShow - Get a notification when the movie tickets are available</a>
@@ -117,6 +130,10 @@
       
       <li>
         <a href="/get-the-file-extension-in-php" class="post-link">Get the file extension in PHP</a>
+      </li>
+      
+      <li>
+        <a href="/include-css-or-javascript-in-moodle" class="post-link">Include CSS or JavaScript in Moodle</a>
       </li>
       
     </ul>
