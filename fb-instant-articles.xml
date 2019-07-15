@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title></title>
+    <link>https://www.saikiransripada.com</link>
+    <description>
+      A full-stack developer based in India, currently focusing on Python, Node.js, React, Vue.js and Ruby Technologies.
+    </description>
+    
+        
+            <item>
+                <title>Prevent CNAME file in Jekyll _site directory from being deleted during the build process</title>
+                <link>https://www.saikiransripada.com/prevent-cname-file-in-jekyll-site-directory-from-being-deleted-during-the-build-process</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>In Jekyll, the <code class="highlighter-rouge">_site</code> folder gets deleted and rebuilt after every change or build execution. If you have a custom domain, you may have to copy the CNAME file after every Jekyll build.</p>
+
+<p>You can use <code class="highlighter-rouge">keep_files</code> option in <code class="highlighter-rouge">_config.yml</code> to prevent CNAME file in the <code class="highlighter-rouge">_site</code> directory from being deleted during the build process.</p>
+
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">keep_files</span><span class="pi">:</span> <span class="pi">[</span><span class="s1">'</span><span class="s">CNAME'</span><span class="pi">]</span></code></pre></figure>
+
+<p>If you are using Travis CI, you can copy the CNAME file to the <code class="highlighter-rouge">_site</code> directory after the build process. Here’s a sample <code class="highlighter-rouge">.travis.yml</code> configuration that you can use:</p>
+
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">language</span><span class="pi">:</span> <span class="s">ruby</span>
+<span class="na">cache</span><span class="pi">:</span> <span class="s">bundler</span>
+<span class="na">branches</span><span class="pi">:</span>
+  <span class="na">only</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">dev</span>
+<span class="na">script</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">JEKYLL_ENV=production bundle exec jekyll build --destination _site</span>
+  <span class="pi">-</span> <span class="s">cp CNAME ./_site/CNAME</span>
+<span class="na">deploy</span><span class="pi">:</span>
+  <span class="na">provider</span><span class="pi">:</span> <span class="s">pages</span>
+  <span class="na">local-dir</span><span class="pi">:</span> <span class="s">./_site</span>
+  <span class="na">target-branch</span><span class="pi">:</span> <span class="s">master</span>
+  <span class="na">email</span><span class="pi">:</span> <span class="s">deploy@travis-ci.org</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">Deployment Bot</span>
+  <span class="na">skip-cleanup</span><span class="pi">:</span> <span class="no">true</span>
+  <span class="na">github-token</span><span class="pi">:</span> <span class="s">$GITHUB_TOKEN</span>
+  <span class="na">keep-history</span><span class="pi">:</span> <span class="no">true</span>
+  <span class="na">on</span><span class="pi">:</span>
+    <span class="na">branch</span><span class="pi">:</span> <span class="s">dev</span></code></pre></figure>
+
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/prevent-cname-file-in-jekyll-site-directory-from-being-deleted-during-the-build-process</guid>
+                <description>
+                    
+                    In Jekyll, the _site folder gets deleted and rebuilt after every change or build execution. If you have a custom domain, you may have to copy the CNAME file after every Jekyll build.
+                    
+                </description>
+                <pubDate>Sat, 29 Jun 2019 00:00:00 +0000</pubDate>
+                <author>Sai Kiran Sripada</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>BookMyShow - Get a notification when the movie tickets are available</title>
+                <link>https://www.saikiransripada.com/bookmyshow-get-a-notification-when-the-movie-tickets-are-available</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>This python script checks if movie tickets are available for a showtime and send an email notification. I have written this in <a href="https://www.python.org/" target="_blank">Python 3</a> using <a href="https://www.crummy.com/software/BeautifulSoup/" target="_blank">BeautifulSoup</a>.</p>
+
+<p>Run the script using <code class="highlighter-rouge">python3 app.py</code>.</p>
+
+<p>Please feel free to fork and file issues or pull requests.
+<a href="https://github.com/saikiransripada/bookmyshow" target="_blank">https://github.com/saikiransripada/bookmyshow</a></p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/bookmyshow-get-a-notification-when-the-movie-tickets-are-available</guid>
+                <description>
+                    
+                    This python script checks if movie tickets are available for a showtime and send an email notification. I’ve written this in Python 3 using BeautifulSoup.
+                    
+                </description>
+                <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
+                <author>Sai Kiran Sripada</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Font from origin has been blocked from loading by Cross-Origin Resource Sharing policy</title>
+                <link>https://www.saikiransripada.com/font-from-origin-has-been-blocked-from-loading</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>Custom web fonts via CDN requires CORS (Cross-Origin Resource Sharing) configuration to display fonts properly.</p>
+
+<p>Add the below rule to your .htaccess</p>
+
+<figure class="highlight"><pre><code class="language-apache" data-lang="apache"><span class="c"># Allow access from all domains for webfonts.</span>
+<span class="p">&lt;</span><span class="nl">IfModule</span><span class="sr"> mod_headers.c</span><span class="p">&gt;
+</span>  <span class="p">&lt;</span><span class="nl">FilesMatch</span><span class="sr"> "\.(ttf|ttc|otf|eot|woff|font.css|css)$"</span><span class="p">&gt;
+</span>    <span class="nc">Header</span> <span class="ss">add</span> Access-Control-Allow-Origin "*"
+  <span class="p">&lt;/</span><span class="nl">FilesMatch</span><span class="p">&gt;
+&lt;/</span><span class="nl">IfModule</span><span class="p">&gt;</span></code></pre></figure>
+
+<p>Using a wildcard is potentially insecure as it opens the domain to JavaScript access from any domain. Instead, you can allow your domain or subdomain.</p>
+
+<figure class="highlight"><pre><code class="language-apache" data-lang="apache"><span class="nc">Header</span> <span class="ss">add</span> Access-Control-Allow-Origin "your-domain.com"</code></pre></figure>
+
+<p>When <code class="highlighter-rouge">add</code> is used, the response header will be added to the existing set of headers; Whereas with <code class="highlighter-rouge">set</code> the response header will be set, replacing any header with this name.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/font-from-origin-has-been-blocked-from-loading</guid>
+                <description>
+                    
+                    Custom web fonts via CDN requires CORS (Cross-Origin Resource Sharing) configuration to display fonts properly.
+                    
+                </description>
+                <pubDate>Fri, 19 Feb 2016 00:00:00 +0000</pubDate>
+                <author>Sai Kiran Sripada</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Always backup your database</title>
+                <link>https://www.saikiransripada.com/always-backup-your-database</link>
+                <content:encoded>
+                    <![CDATA[
+                    <blockquote>
+  <p>Always backup your database before playing with it! Better safe than sorry!</p>
+</blockquote>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/always-backup-your-database</guid>
+                <description>
+                    
+                    Always backup your database before playing with it! Better safe than sorry!
+                    
+                </description>
+                <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
+                <author>Sai Kiran Sripada</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Get the file extension in PHP</title>
+                <link>https://www.saikiransripada.com/get-the-file-extension-in-php</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>A simple function to get the extension of a file. Meet <a href="https://php.net/pathinfo" target="_blank">pathinfo()</a>.</p>
+
+<figure class="highlight"><pre><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span> <span class="nv">$extension</span> <span class="o">=</span> <span class="nb">pathinfo</span><span class="p">(</span><span class="nv">$filename</span><span class="p">,</span> <span class="nx">PATHINFO_EXTENSION</span><span class="p">);</span> <span class="cp">?&gt;</span></code></pre></figure>
+
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/get-the-file-extension-in-php</guid>
+                <description>
+                    
+                    A simple function to get the extension of a file. Meet pathinfo().
+                    
+                </description>
+                <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
+                <author>Sai Kiran Sripada</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Include CSS or JavaScript in Moodle</title>
+                <link>https://www.saikiransripada.com/include-css-or-javascript-in-moodle</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>To include a CSS file in Moodle:</p>
+
+<figure class="highlight"><pre><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span> <span class="nv">$PAGE</span><span class="o">-&gt;</span><span class="na">requires</span><span class="o">-&gt;</span><span class="na">css</span><span class="p">(</span><span class="k">new</span> <span class="nx">moodle_url</span><span class="p">(</span><span class="s1">'/path/to/file.css'</span><span class="p">));</span> <span class="cp">?&gt;</span></code></pre></figure>
+
+<p>To include a JavaScript file in Moodle:</p>
+
+<figure class="highlight"><pre><code class="language-php" data-lang="php"><span class="cp">&lt;?php</span> <span class="nv">$PAGE</span><span class="o">-&gt;</span><span class="na">requires</span><span class="o">-&gt;</span><span class="na">js</span><span class="p">(</span><span class="k">new</span> <span class="nx">moodle_url</span><span class="p">(</span><span class="s1">'/path/to/file.js'</span><span class="p">));</span> <span class="cp">?&gt;</span></code></pre></figure>
+
+<p>Provide the relative path to the file (excluding document root).</p>
+
+<p>When writing a custom plugin, place CSS in a file called <code class="highlighter-rouge">styles.css</code> in the base directory of your plugin <code class="highlighter-rouge">/plugin/styles.css</code>. Moodle will automatically load the CSS file for you.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/include-css-or-javascript-in-moodle</guid>
+                <description>
+                    
+                    When writing a custom plugin, place CSS in a file called styles.css in the base directory of your plugin /plugin/styles.css. Moodle will automatically load the CSS file for you.
+                    
+                </description>
+                <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
+                <author>Sai Kiran Sripada</author>
+            </item>
+        
+    
+  </channel>
+</rss>
