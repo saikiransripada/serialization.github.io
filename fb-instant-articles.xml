@@ -10,7 +10,7 @@
         
             <item>
                 <title>Prevent CNAME file in Jekyll _site directory from being deleted during the build process</title>
-                <link>https://www.saikiransripada.com/prevent-cname-file-in-jekyll-site-directory-from-being-deleted-during-the-build-process</link>
+                <link>https://www.saikiransripada.com/prevent-cname-file-in-jekyll-site-directory-from-being-deleted-during-the-build-process/</link>
                 <content:encoded>
                     <![CDATA[
                     <p>In Jekyll, the <code class="highlighter-rouge">_site</code> folder gets deleted and rebuilt after every change or build execution. If you have a custom domain, you may have to copy the CNAME file after every Jekyll build.</p>
@@ -44,7 +44,7 @@
 
                     ]]>
                 </content:encoded>
-                <guid isPermaLink="false">/prevent-cname-file-in-jekyll-site-directory-from-being-deleted-during-the-build-process</guid>
+                <guid isPermaLink="false">/prevent-cname-file-in-jekyll-site-directory-from-being-deleted-during-the-build-process/</guid>
                 <description>
                     
                     In Jekyll, the _site folder gets deleted and rebuilt after every change or build execution. If you have a custom domain, you may have to copy the CNAME file after every Jekyll build.
@@ -58,7 +58,7 @@
         
             <item>
                 <title>BookMyShow - Get a notification when the movie tickets are available</title>
-                <link>https://www.saikiransripada.com/bookmyshow-get-a-notification-when-the-movie-tickets-are-available</link>
+                <link>https://www.saikiransripada.com/bookmyshow-get-a-notification-when-the-movie-tickets-are-available/</link>
                 <content:encoded>
                     <![CDATA[
                     <p>This python script checks if movie tickets are available for a showtime and send an email notification. I have written this in <a href="https://www.python.org/" target="_blank">Python 3</a> using <a href="https://www.crummy.com/software/BeautifulSoup/" target="_blank">BeautifulSoup</a>.</p>
@@ -70,7 +70,7 @@
 
                     ]]>
                 </content:encoded>
-                <guid isPermaLink="false">/bookmyshow-get-a-notification-when-the-movie-tickets-are-available</guid>
+                <guid isPermaLink="false">/bookmyshow-get-a-notification-when-the-movie-tickets-are-available/</guid>
                 <description>
                     
                     This python script checks if movie tickets are available for a showtime and send an email notification. I’ve written this in Python 3 using BeautifulSoup.
@@ -84,7 +84,7 @@
         
             <item>
                 <title>Font from origin has been blocked from loading by Cross-Origin Resource Sharing policy</title>
-                <link>https://www.saikiransripada.com/font-from-origin-has-been-blocked-from-loading</link>
+                <link>https://www.saikiransripada.com/font-from-origin-has-been-blocked-from-loading/</link>
                 <content:encoded>
                     <![CDATA[
                     <p>Custom web fonts via CDN requires CORS (Cross-Origin Resource Sharing) configuration to display fonts properly.</p>
@@ -106,7 +106,7 @@
 
                     ]]>
                 </content:encoded>
-                <guid isPermaLink="false">/font-from-origin-has-been-blocked-from-loading</guid>
+                <guid isPermaLink="false">/font-from-origin-has-been-blocked-from-loading/</guid>
                 <description>
                     
                     Custom web fonts via CDN requires CORS (Cross-Origin Resource Sharing) configuration to display fonts properly.
@@ -120,7 +120,7 @@
         
             <item>
                 <title>Always backup your database</title>
-                <link>https://www.saikiransripada.com/always-backup-your-database</link>
+                <link>https://www.saikiransripada.com/always-backup-your-database/</link>
                 <content:encoded>
                     <![CDATA[
                     <blockquote>
@@ -129,7 +129,7 @@
 
                     ]]>
                 </content:encoded>
-                <guid isPermaLink="false">/always-backup-your-database</guid>
+                <guid isPermaLink="false">/always-backup-your-database/</guid>
                 <description>
                     
                     Always backup your database before playing with it! Better safe than sorry!
@@ -143,7 +143,7 @@
         
             <item>
                 <title>Get the file extension in PHP</title>
-                <link>https://www.saikiransripada.com/get-the-file-extension-in-php</link>
+                <link>https://www.saikiransripada.com/get-the-file-extension-in-php/</link>
                 <content:encoded>
                     <![CDATA[
                     <p>A simple function to get the extension of a file. Meet <a href="https://php.net/pathinfo" target="_blank">pathinfo()</a>.</p>
@@ -153,7 +153,7 @@
 
                     ]]>
                 </content:encoded>
-                <guid isPermaLink="false">/get-the-file-extension-in-php</guid>
+                <guid isPermaLink="false">/get-the-file-extension-in-php/</guid>
                 <description>
                     
                     A simple function to get the extension of a file. Meet pathinfo().
@@ -167,7 +167,7 @@
         
             <item>
                 <title>Include CSS or JavaScript in Moodle</title>
-                <link>https://www.saikiransripada.com/include-css-or-javascript-in-moodle</link>
+                <link>https://www.saikiransripada.com/include-css-or-javascript-in-moodle/</link>
                 <content:encoded>
                     <![CDATA[
                     <p>To include a CSS file in Moodle:</p>
@@ -184,7 +184,7 @@
 
                     ]]>
                 </content:encoded>
-                <guid isPermaLink="false">/include-css-or-javascript-in-moodle</guid>
+                <guid isPermaLink="false">/include-css-or-javascript-in-moodle/</guid>
                 <description>
                     
                     When writing a custom plugin, place CSS in a file called styles.css in the base directory of your plugin /plugin/styles.css. Moodle will automatically load the CSS file for you.
