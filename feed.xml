@@ -7,6 +7,32 @@
     <atom:link href="https://www.saikiransripada.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Instagram - Download photos and videos from a public profile</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://github.com/saikiransripada/instagram-media-downloader&quot; target=&quot;_blank&quot;&gt;Instagram Media Downloader&lt;/a&gt; is a simple command-line script to download photos, videos and sidecars (album) of an Instagram profile. No configuration or password required.&lt;/p&gt;
+
+&lt;h3 id=&quot;requirements&quot;&gt;Requirements&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Python 3.x&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;usage&quot;&gt;Usage&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Clone the repo to your computer.&lt;/li&gt;
+  &lt;li&gt;Install the required packages using &lt;code class=&quot;highlighter-rouge&quot;&gt;pip3 install -r requirements.txt&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Run the script using the command &lt;code class=&quot;highlighter-rouge&quot;&gt;python3 instagram.py -u &amp;lt;instagram_username&amp;gt; -p &amp;lt;path_to_download&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The path parameter is optional. Specify the path if you want to save the media in a specific location. If omitted, it downloads the media to the current working directory.&lt;/p&gt;
+
+&lt;p&gt;Please feel free to fork and file issues or create pull requests.
+&lt;a href=&quot;https://github.com/saikiransripada/instagram-media-downloader&quot; target=&quot;_blank&quot;&gt;https://github.com/saikiransripada/instagram-media-downloader&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
+        <link>https://www.saikiransripada.com/instagram-download-photos-and-videos-from-a-public-profile/</link>
+        <guid isPermaLink="true">https://www.saikiransripada.com/instagram-download-photos-and-videos-from-a-public-profile/</guid>
+      </item>
+    
+      <item>
         <title>Prevent CNAME file in Jekyll _site directory from being deleted during the build process</title>
         <description>&lt;p&gt;In Jekyll, the &lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt; folder gets deleted and rebuilt after every change or build execution. If you have a custom domain, you may have to copy the CNAME file after every Jekyll build.&lt;/p&gt;
 
@@ -48,7 +74,7 @@
 
 &lt;p&gt;Run the script using &lt;code class=&quot;highlighter-rouge&quot;&gt;python3 app.py&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;Please feel free to fork and file issues or pull requests.
+&lt;p&gt;Please feel free to fork and file issues or create pull requests.
 &lt;a href=&quot;https://github.com/saikiransripada/bookmyshow&quot; target=&quot;_blank&quot;&gt;https://github.com/saikiransripada/bookmyshow&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>

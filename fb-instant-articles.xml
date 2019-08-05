@@ -9,6 +9,44 @@
     
         
             <item>
+                <title>Instagram - Download photos and videos from a public profile</title>
+                <link>https://www.saikiransripada.com/instagram-download-photos-and-videos-from-a-public-profile/</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p><a href="https://github.com/saikiransripada/instagram-media-downloader" target="_blank">Instagram Media Downloader</a> is a simple command-line script to download photos, videos and sidecars (album) of an Instagram profile. No configuration or password required.</p>
+
+<h3 id="requirements">Requirements</h3>
+<ul>
+  <li>Python 3.x</li>
+</ul>
+
+<h3 id="usage">Usage</h3>
+<ol>
+  <li>Clone the repo to your computer.</li>
+  <li>Install the required packages using <code class="highlighter-rouge">pip3 install -r requirements.txt</code></li>
+  <li>Run the script using the command <code class="highlighter-rouge">python3 instagram.py -u &lt;instagram_username&gt; -p &lt;path_to_download&gt;</code></li>
+</ol>
+
+<p>The path parameter is optional. Specify the path if you want to save the media in a specific location. If omitted, it downloads the media to the current working directory.</p>
+
+<p>Please feel free to fork and file issues or create pull requests.
+<a href="https://github.com/saikiransripada/instagram-media-downloader" target="_blank">https://github.com/saikiransripada/instagram-media-downloader</a></p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/instagram-download-photos-and-videos-from-a-public-profile/</guid>
+                <description>
+                    
+                    Instagram Media Downloader is a simple command-line script to download photos, videos and sidecars (album) of an Instagram profile. No configuration or password required.
+                    
+                </description>
+                <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
+                <author>Sai Kiran Sripada</author>
+            </item>
+        
+    
+        
+            <item>
                 <title>Prevent CNAME file in Jekyll _site directory from being deleted during the build process</title>
                 <link>https://www.saikiransripada.com/prevent-cname-file-in-jekyll-site-directory-from-being-deleted-during-the-build-process/</link>
                 <content:encoded>
@@ -65,7 +103,7 @@
 
 <p>Run the script using <code class="highlighter-rouge">python3 app.py</code>.</p>
 
-<p>Please feel free to fork and file issues or pull requests.
+<p>Please feel free to fork and file issues or create pull requests.
 <a href="https://github.com/saikiransripada/bookmyshow" target="_blank">https://github.com/saikiransripada/bookmyshow</a></p>
 
                     ]]>
