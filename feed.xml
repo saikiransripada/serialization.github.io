@@ -7,6 +7,30 @@
     <atom:link href="https://www.saikiransripada.com/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Instagram - Find similar hashtags of a keyword</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://github.com/saikiransripada/instagram-similar-hashtags&quot; target=&quot;_blank&quot;&gt;Instagram Similar Hashtags&lt;/a&gt; is a command-line script that lists the similar hashtags based on the user keyword. No configuration or password required.&lt;/p&gt;
+
+&lt;h3 id=&quot;requirements&quot;&gt;Requirements&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Python 3.x&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;usage&quot;&gt;Usage&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Clone the repo to your computer.&lt;/li&gt;
+  &lt;li&gt;Run the script using the command &lt;code class=&quot;highlighter-rouge&quot;&gt;python3 hashtags.py&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Enter the hashtag.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Please feel free to fork and file issues or create pull requests.
+&lt;a href=&quot;https://github.com/saikiransripada/instagram-similar-hashtags&quot; target=&quot;_blank&quot;&gt;https://github.com/saikiransripada/instagram-similar-hashtags&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+        <link>https://www.saikiransripada.com/instagram-find-similar-hashtags-of-a-keyword/</link>
+        <guid isPermaLink="true">https://www.saikiransripada.com/instagram-find-similar-hashtags-of-a-keyword/</guid>
+      </item>
+    
+      <item>
         <title>Instagram - Download photos and videos from a public profile</title>
         <description>&lt;p&gt;&lt;a href=&quot;https://github.com/saikiransripada/instagram-media-downloader&quot; target=&quot;_blank&quot;&gt;Instagram Media Downloader&lt;/a&gt; is a simple command-line script to download photos, videos and sidecars (album) of an Instagram profile. No configuration or password required.&lt;/p&gt;
 

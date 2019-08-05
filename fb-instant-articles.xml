@@ -9,6 +9,42 @@
     
         
             <item>
+                <title>Instagram - Find similar hashtags of a keyword</title>
+                <link>https://www.saikiransripada.com/instagram-find-similar-hashtags-of-a-keyword/</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p><a href="https://github.com/saikiransripada/instagram-similar-hashtags" target="_blank">Instagram Similar Hashtags</a> is a command-line script that lists the similar hashtags based on the user keyword. No configuration or password required.</p>
+
+<h3 id="requirements">Requirements</h3>
+<ul>
+  <li>Python 3.x</li>
+</ul>
+
+<h3 id="usage">Usage</h3>
+<ol>
+  <li>Clone the repo to your computer.</li>
+  <li>Run the script using the command <code class="highlighter-rouge">python3 hashtags.py</code></li>
+  <li>Enter the hashtag.</li>
+</ol>
+
+<p>Please feel free to fork and file issues or create pull requests.
+<a href="https://github.com/saikiransripada/instagram-similar-hashtags" target="_blank">https://github.com/saikiransripada/instagram-similar-hashtags</a></p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/instagram-find-similar-hashtags-of-a-keyword/</guid>
+                <description>
+                    
+                    Instagram Media Downloader is a simple command-line script to download photos, videos and sidecars (album) of an Instagram profile. No configuration or password required.
+                    
+                </description>
+                <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+                <author>Sai Kiran Sripada</author>
+            </item>
+        
+    
+        
+            <item>
                 <title>Instagram - Download photos and videos from a public profile</title>
                 <link>https://www.saikiransripada.com/instagram-download-photos-and-videos-from-a-public-profile/</link>
                 <content:encoded>
