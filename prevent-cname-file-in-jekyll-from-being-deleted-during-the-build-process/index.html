@@ -6,15 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <title>Sai Kiran Sripada</title>
+  <title>Prevent CNAME file in Jekyll from being deleted during the build process | Sai Kiran Sripada</title>
   
 
   
-  <meta name="description" content="A full-stack developer, currently focusing on Python, Node.js, React, Vue.js and Ruby Technologies.">
+  <meta name="description" content="In Jekyll, the "_site" folder gets deleted and rebuilt after every change or build execution.">
   
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="https://www.saikiransripada.com/">
+  <link rel="canonical" href="https://www.saikiransripada.com/prevent-cname-file-in-jekyll-from-being-deleted-during-the-build-process/">
   <link rel="alternate" type="application/rss+xml" title="Sai Kiran Sripada" href="/feed.xml">
 
   
@@ -132,88 +132,93 @@
 
 
     
-    <main class="page-content" aria-label="Content">
+    <main class="post-content" aria-label="Content">
     
       <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  
+  <header class="post-header">
+  
+    
+    <div class="wrapper">
+      <h1 class="post-title" itemprop="name headline">Prevent CNAME file in Jekyll from being deleted during the build process</h1>
+      <p class="post-meta">
+        <time datetime="2019-06-29T17:01:27+00:00" itemprop="datePublished">
+          Jun 29, 2019
+        </time>
+        <span class="last-update">·
+          last updated on Jan 27, 2020 
+        </span>
         
+      </p>
 
-<div class="home">
+      
+      <h3 class="post-summary">In Jekyll, the "_site" folder gets deleted and rebuilt after every change or build execution.</h3>
+      
+    </div>
+  </header>
 
-  
+  <div class="post-content" itemprop="articleBody">
+    <p>If you have a custom domain, you may have to copy the CNAME file after every Jekyll build.</p>
 
-<ul class="post-list">
-  
+<p>You can use the <code class="highlighter-rouge">keep_files</code> option in <code class="highlighter-rouge">_config.yml</code> to prevent the CNAME file in the <code class="highlighter-rouge">_site</code> directory from being deleted during the build process.</p>
 
-  
-    <li>
-  <h2>
-    <a class="post-link" href="/find-similar-instagram-hashtags-of-a-keyword/">Find similar Instagram hashtags of a keyword</a>
-  </h2>
-    <span class="post-meta">
-      <span class="date">
-      Aug 5, 2019
-        <span class="last-update">·
-          last updated on Jan 27, 2020 
-        </span>
-      </span>
-    </span>
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">keep_files</span><span class="pi">:</span> <span class="pi">[</span><span class="s1">'</span><span class="s">CNAME'</span><span class="pi">]</span></code></pre></figure>
 
-  
+<p>If you are using Travis CI, you can copy the CNAME file to the <code class="highlighter-rouge">_site</code> directory after the build process. Here’s a sample <code class="highlighter-rouge">.travis.yml</code> configuration that you can use:</p>
 
-  <p>A simple command-line script that lists similar hashtags based on a user keyword.</p>
-</li>
-
-  
-    <li>
-  <h2>
-    <a class="post-link" href="/download-photos-and-videos-from-instagram/">Download photos, videos, and sidecars from Instagram</a>
-  </h2>
-    <span class="post-meta">
-      <span class="date">
-      Aug 4, 2019
-        <span class="last-update">·
-          last updated on Jan 27, 2020 
-        </span>
-      </span>
-    </span>
-
-  
-
-  <p>A simple command-line script to download photos, videos, and sidecars (album) of an Instagram profile.</p>
-</li>
-
-  
-    <li>
-  <h2>
-    <a class="post-link" href="/prevent-cname-file-in-jekyll-from-being-deleted-during-the-build-process/">Prevent CNAME file in Jekyll from being deleted during the build process</a>
-  </h2>
-    <span class="post-meta">
-      <span class="date">
-      Jun 29, 2019
-        <span class="last-update">·
-          last updated on Jan 27, 2020 
-        </span>
-      </span>
-    </span>
-
-  
-
-  <p>In Jekyll, the "_site" folder gets deleted and rebuilt after every change or build execution.</p>
-</li>
-
-  
-</ul>
+<figure class="highlight"><pre><code class="language-yaml" data-lang="yaml"><span class="na">language</span><span class="pi">:</span> <span class="s">ruby</span>
+<span class="na">cache</span><span class="pi">:</span> <span class="s">bundler</span>
+<span class="na">branches</span><span class="pi">:</span>
+  <span class="na">only</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">dev</span>
+<span class="na">script</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s">JEKYLL_ENV=production bundle exec jekyll build --destination _site</span>
+  <span class="pi">-</span> <span class="s">cp CNAME ./_site/CNAME</span>
+<span class="na">deploy</span><span class="pi">:</span>
+  <span class="na">provider</span><span class="pi">:</span> <span class="s">pages</span>
+  <span class="na">local-dir</span><span class="pi">:</span> <span class="s">./_site</span>
+  <span class="na">target-branch</span><span class="pi">:</span> <span class="s">master</span>
+  <span class="na">email</span><span class="pi">:</span> <span class="s">deploy@travis-ci.org</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">Deployment Bot</span>
+  <span class="na">skip-cleanup</span><span class="pi">:</span> <span class="no">true</span>
+  <span class="na">github-token</span><span class="pi">:</span> <span class="s">$GITHUB_TOKEN</span>
+  <span class="na">keep-history</span><span class="pi">:</span> <span class="no">true</span>
+  <span class="na">on</span><span class="pi">:</span>
+    <span class="na">branch</span><span class="pi">:</span> <span class="s">dev</span></code></pre></figure>
 
 
-  <!-- Pagination links -->
+  </div>
+
   <div class="pagination">
     
+      <a class="prev" href="/download-photos-and-videos-from-instagram/">&laquo; Download photos, videos, and sidecars from Instagram</a>
     
-      <a class="next" href="/page/2/" class="next button__outline">Older Posts &raquo;</a>
+    
+      <a class="next" href="/get-a-notification-when-the-movie-tickets-are-available-on-bookmyshow/">Get a notification when the movie tickets are available on BookMyShow &raquo;</a>
     
   </div>
 
+  <div class="colored-block">
+  
+  
+    Did you like that post?
+  
+
+  You can suscribe to the
+  <a href="/feed.xml">RSS feed</a>
+  
+
+  
+    or follow
+    <a href="https://twitter.com/wp_user">@wp_user</a>
+    on Twitter
+  .
 </div>
+
+
+</article>
 
       </div>
     </main>

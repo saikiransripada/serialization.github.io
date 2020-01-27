@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Sai Kiran Sripada</title>
-    <description>A full-stack developer based in India, currently focusing on Python, Node.js, React, Vue.js and Ruby Technologies.</description>
-    <link>https://www.saikiransripada.com/</link>
-    <atom:link href="https://www.saikiransripada.com/feed.xml" rel="self" type="application/rss+xml" />
-    
-      <item>
-        <title>Instagram - Find similar hashtags of a keyword</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://github.com/saikiransripada/instagram-similar-hashtags&quot; target=&quot;_blank&quot;&gt;Instagram Similar Hashtags&lt;/a&gt; is a command-line script that lists the similar hashtags based on the user keyword. No configuration or password required.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://www.saikiransripada.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://www.saikiransripada.com/" rel="alternate" type="text/html" /><updated>2020-01-27T19:14:25+00:00</updated><id>https://www.saikiransripada.com/feed.xml</id><title type="html">Sai Kiran Sripada</title><subtitle>A full-stack developer, currently focusing on Python, Node.js, React, Vue.js and Ruby Technologies.</subtitle><author><name>Sai Kiran Sripada</name></author><entry><title type="html">Find similar Instagram hashtags of a keyword</title><link href="https://www.saikiransripada.com/find-similar-instagram-hashtags-of-a-keyword/" rel="alternate" type="text/html" title="Find similar Instagram hashtags of a keyword" /><published>2019-08-05T17:01:27+00:00</published><updated>2020-01-27T19:04:07+00:00</updated><id>https://www.saikiransripada.com/find-similar-instagram-hashtags-of-a-keyword</id><content type="html" xml:base="https://www.saikiransripada.com/find-similar-instagram-hashtags-of-a-keyword/">&lt;p&gt;&lt;a href=&quot;https://github.com/saikiransripada/instagram-similar-hashtags&quot; target=&quot;_blank&quot;&gt;Instagram Similar Hashtags&lt;/a&gt; is a command-line script that lists similar hashtags based on the user keyword. No configuration or password required.&lt;/p&gt;
 
 &lt;h3 id=&quot;requirements&quot;&gt;Requirements&lt;/h3&gt;
 &lt;ul&gt;
@@ -17,22 +7,13 @@
 
 &lt;h3 id=&quot;usage&quot;&gt;Usage&lt;/h3&gt;
 &lt;ol&gt;
-  &lt;li&gt;Clone the repo to your computer.&lt;/li&gt;
+  &lt;li&gt;Clone the &lt;a href=&quot;https://github.com/saikiransripada/instagram-similar-hashtags&quot; target=&quot;_blank&quot;&gt;Instagram Similar Hashtags&lt;/a&gt; repository to your computer.&lt;/li&gt;
   &lt;li&gt;Run the script using the command &lt;code class=&quot;highlighter-rouge&quot;&gt;python3 hashtags.py&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Enter the hashtag.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;Please feel free to fork and file issues or create pull requests.
-&lt;a href=&quot;https://github.com/saikiransripada/instagram-similar-hashtags&quot; target=&quot;_blank&quot;&gt;https://github.com/saikiransripada/instagram-similar-hashtags&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-        <link>https://www.saikiransripada.com/instagram-find-similar-hashtags-of-a-keyword/</link>
-        <guid isPermaLink="true">https://www.saikiransripada.com/instagram-find-similar-hashtags-of-a-keyword/</guid>
-      </item>
-    
-      <item>
-        <title>Instagram - Download photos and videos from a public profile</title>
-        <description>&lt;p&gt;&lt;a href=&quot;https://github.com/saikiransripada/instagram-media-downloader&quot; target=&quot;_blank&quot;&gt;Instagram Media Downloader&lt;/a&gt; is a simple command-line script to download photos, videos and sidecars (album) of an Instagram profile. No configuration or password required.&lt;/p&gt;
+&lt;a href=&quot;https://github.com/saikiransripada/instagram-similar-hashtags&quot; target=&quot;_blank&quot;&gt;https://github.com/saikiransripada/instagram-similar-hashtags&lt;/a&gt;&lt;/p&gt;</content><author><name>Sai Kiran Sripada</name></author><summary type="html">Instagram Similar Hashtags is a command-line script that lists similar hashtags based on the user keyword. No configuration or password required.</summary></entry><entry><title type="html">Download photos, videos, and sidecars from Instagram</title><link href="https://www.saikiransripada.com/download-photos-and-videos-from-instagram/" rel="alternate" type="text/html" title="Download photos, videos, and sidecars from Instagram" /><published>2019-08-04T17:01:27+00:00</published><updated>2020-01-27T19:04:07+00:00</updated><id>https://www.saikiransripada.com/download-photos-and-videos-from-instagram</id><content type="html" xml:base="https://www.saikiransripada.com/download-photos-and-videos-from-instagram/">&lt;p&gt;&lt;a href=&quot;https://github.com/saikiransripada/instagram-media-downloader&quot; target=&quot;_blank&quot;&gt;Instagram Media Downloader&lt;/a&gt; is a command-line script to download photos, videos and sidecars (album) of an Instagram profile. No configuration or password required. This script works with public profiles only.&lt;/p&gt;
 
 &lt;h3 id=&quot;requirements&quot;&gt;Requirements&lt;/h3&gt;
 &lt;ul&gt;
@@ -41,7 +22,7 @@
 
 &lt;h3 id=&quot;usage&quot;&gt;Usage&lt;/h3&gt;
 &lt;ol&gt;
-  &lt;li&gt;Clone the repo to your computer.&lt;/li&gt;
+  &lt;li&gt;Clone the &lt;a href=&quot;https://github.com/saikiransripada/instagram-media-downloader&quot; target=&quot;_blank&quot;&gt;Instagram Media Downloader&lt;/a&gt; repo to your computer.&lt;/li&gt;
   &lt;li&gt;Install the required packages using &lt;code class=&quot;highlighter-rouge&quot;&gt;pip3 install -r requirements.txt&lt;/code&gt;&lt;/li&gt;
   &lt;li&gt;Run the script using the command &lt;code class=&quot;highlighter-rouge&quot;&gt;python3 instagram.py -u &amp;lt;instagram_username&amp;gt; -p &amp;lt;path_to_download&amp;gt;&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -49,18 +30,9 @@
 &lt;p&gt;The path parameter is optional. Specify the path if you want to save the media in a specific location. If omitted, it downloads the media to the current working directory.&lt;/p&gt;
 
 &lt;p&gt;Please feel free to fork and file issues or create pull requests.
-&lt;a href=&quot;https://github.com/saikiransripada/instagram-media-downloader&quot; target=&quot;_blank&quot;&gt;https://github.com/saikiransripada/instagram-media-downloader&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 04 Aug 2019 00:00:00 +0000</pubDate>
-        <link>https://www.saikiransripada.com/instagram-download-photos-and-videos-from-a-public-profile/</link>
-        <guid isPermaLink="true">https://www.saikiransripada.com/instagram-download-photos-and-videos-from-a-public-profile/</guid>
-      </item>
-    
-      <item>
-        <title>Prevent CNAME file in Jekyll _site directory from being deleted during the build process</title>
-        <description>&lt;p&gt;In Jekyll, the &lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt; folder gets deleted and rebuilt after every change or build execution. If you have a custom domain, you may have to copy the CNAME file after every Jekyll build.&lt;/p&gt;
+&lt;a href=&quot;https://github.com/saikiransripada/instagram-media-downloader&quot; target=&quot;_blank&quot;&gt;https://github.com/saikiransripada/instagram-media-downloader&lt;/a&gt;&lt;/p&gt;</content><author><name>Sai Kiran Sripada</name></author><summary type="html">Instagram Media Downloader is a command-line script to download photos, videos and sidecars (album) of an Instagram profile. No configuration or password required. This script works with public profiles only.</summary></entry><entry><title type="html">Prevent CNAME file in Jekyll from being deleted during the build process</title><link href="https://www.saikiransripada.com/prevent-cname-file-in-jekyll-from-being-deleted-during-the-build-process/" rel="alternate" type="text/html" title="Prevent CNAME file in Jekyll from being deleted during the build process" /><published>2019-06-29T17:01:27+00:00</published><updated>2020-01-27T19:04:07+00:00</updated><id>https://www.saikiransripada.com/prevent-cname-file-in-jekyll-from-being-deleted-during-the-build-process</id><content type="html" xml:base="https://www.saikiransripada.com/prevent-cname-file-in-jekyll-from-being-deleted-during-the-build-process/">&lt;p&gt;If you have a custom domain, you may have to copy the CNAME file after every Jekyll build.&lt;/p&gt;
 
-&lt;p&gt;You can use &lt;code class=&quot;highlighter-rouge&quot;&gt;keep_files&lt;/code&gt; option in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; to prevent CNAME file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt; directory from being deleted during the build process.&lt;/p&gt;
+&lt;p&gt;You can use the &lt;code class=&quot;highlighter-rouge&quot;&gt;keep_files&lt;/code&gt; option in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; to prevent the CNAME file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt; directory from being deleted during the build process.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;na&quot;&gt;keep_files&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;CNAME'&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
@@ -84,31 +56,12 @@
   &lt;span class=&quot;na&quot;&gt;github-token&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;$GITHUB_TOKEN&lt;/span&gt;
   &lt;span class=&quot;na&quot;&gt;keep-history&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
   &lt;span class=&quot;na&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;branch&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;dev&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-</description>
-        <pubDate>Sat, 29 Jun 2019 00:00:00 +0000</pubDate>
-        <link>https://www.saikiransripada.com/prevent-cname-file-in-jekyll-site-directory-from-being-deleted-during-the-build-process/</link>
-        <guid isPermaLink="true">https://www.saikiransripada.com/prevent-cname-file-in-jekyll-site-directory-from-being-deleted-during-the-build-process/</guid>
-      </item>
-    
-      <item>
-        <title>BookMyShow - Get a notification when the movie tickets are available</title>
-        <description>&lt;p&gt;This python script checks if movie tickets are available for a showtime and send an email notification. I have written this in &lt;a href=&quot;https://www.python.org/&quot; target=&quot;_blank&quot;&gt;Python 3&lt;/a&gt; using &lt;a href=&quot;https://www.crummy.com/software/BeautifulSoup/&quot; target=&quot;_blank&quot;&gt;BeautifulSoup&lt;/a&gt;.&lt;/p&gt;
+    &lt;span class=&quot;na&quot;&gt;branch&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;dev&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Sai Kiran Sripada</name></author><summary type="html">If you have a custom domain, you may have to copy the CNAME file after every Jekyll build.</summary></entry><entry><title type="html">Get a notification when the movie tickets are available on BookMyShow</title><link href="https://www.saikiransripada.com/get-a-notification-when-the-movie-tickets-are-available-on-bookmyshow/" rel="alternate" type="text/html" title="Get a notification when the movie tickets are available on BookMyShow" /><published>2018-11-18T17:01:27+00:00</published><updated>2020-01-27T19:04:07+00:00</updated><id>https://www.saikiransripada.com/get-a-notification-when-the-movie-tickets-are-available-on-bookmyshow</id><content type="html" xml:base="https://www.saikiransripada.com/get-a-notification-when-the-movie-tickets-are-available-on-bookmyshow/">&lt;p&gt;This python script checks if movie tickets are available for a showtime and send an email notification. I have written this in &lt;a href=&quot;https://www.python.org/&quot; target=&quot;_blank&quot;&gt;Python 3&lt;/a&gt; using &lt;a href=&quot;https://www.crummy.com/software/BeautifulSoup/&quot; target=&quot;_blank&quot;&gt;BeautifulSoup&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Run the script using &lt;code class=&quot;highlighter-rouge&quot;&gt;python3 app.py&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Please feel free to fork and file issues or create pull requests.
-&lt;a href=&quot;https://github.com/saikiransripada/bookmyshow&quot; target=&quot;_blank&quot;&gt;https://github.com/saikiransripada/bookmyshow&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
-        <link>https://www.saikiransripada.com/bookmyshow-get-a-notification-when-the-movie-tickets-are-available/</link>
-        <guid isPermaLink="true">https://www.saikiransripada.com/bookmyshow-get-a-notification-when-the-movie-tickets-are-available/</guid>
-      </item>
-    
-      <item>
-        <title>Font from origin has been blocked from loading by Cross-Origin Resource Sharing policy</title>
-        <description>&lt;p&gt;Custom web fonts via CDN requires CORS (Cross-Origin Resource Sharing) configuration to display fonts properly.&lt;/p&gt;
+&lt;a href=&quot;https://github.com/saikiransripada/bookmyshow&quot; target=&quot;_blank&quot;&gt;https://github.com/saikiransripada/bookmyshow&lt;/a&gt;&lt;/p&gt;</content><author><name>Sai Kiran Sripada</name></author><summary type="html">This python script checks if movie tickets are available for a showtime and send an email notification. I have written this in Python 3 using BeautifulSoup.</summary></entry><entry><title type="html">Font from origin has been blocked from loading by Cross-Origin Resource Sharing policy</title><link href="https://www.saikiransripada.com/font-from-origin-has-been-blocked-from-loading/" rel="alternate" type="text/html" title="Font from origin has been blocked from loading by Cross-Origin Resource Sharing policy" /><published>2016-02-19T17:01:27+00:00</published><updated>2020-01-27T19:04:07+00:00</updated><id>https://www.saikiransripada.com/font-from-origin-has-been-blocked-from-loading</id><content type="html" xml:base="https://www.saikiransripada.com/font-from-origin-has-been-blocked-from-loading/">&lt;p&gt;Custom web fonts via CDN requires CORS (Cross-Origin Resource Sharing) configuration to display fonts properly.&lt;/p&gt;
 
 &lt;p&gt;Add the below rule to your .htaccess&lt;/p&gt;
 
@@ -123,39 +76,13 @@
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-apache&quot; data-lang=&quot;apache&quot;&gt;&lt;span class=&quot;nc&quot;&gt;Header&lt;/span&gt; &lt;span class=&quot;ss&quot;&gt;add&lt;/span&gt; Access-Control-Allow-Origin &quot;your-domain.com&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;When &lt;code class=&quot;highlighter-rouge&quot;&gt;add&lt;/code&gt; is used, the response header will be added to the existing set of headers; Whereas with &lt;code class=&quot;highlighter-rouge&quot;&gt;set&lt;/code&gt; the response header will be set, replacing any header with this name.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 19 Feb 2016 00:00:00 +0000</pubDate>
-        <link>https://www.saikiransripada.com/font-from-origin-has-been-blocked-from-loading/</link>
-        <guid isPermaLink="true">https://www.saikiransripada.com/font-from-origin-has-been-blocked-from-loading/</guid>
-      </item>
-    
-      <item>
-        <title>Always backup your database</title>
-        <description>&lt;blockquote&gt;
+&lt;p&gt;When &lt;code class=&quot;highlighter-rouge&quot;&gt;add&lt;/code&gt; is used, the response header will be added to the existing set of headers; Whereas with &lt;code class=&quot;highlighter-rouge&quot;&gt;set&lt;/code&gt; the response header will be set, replacing any header with this name.&lt;/p&gt;</content><author><name>Sai Kiran Sripada</name></author><summary type="html">Custom web fonts via CDN requires CORS (Cross-Origin Resource Sharing) configuration to display fonts properly.</summary></entry><entry><title type="html">Get the file extension in PHP</title><link href="https://www.saikiransripada.com/get-the-file-extension-in-php/" rel="alternate" type="text/html" title="Get the file extension in PHP" /><published>2015-11-24T17:01:27+00:00</published><updated>2020-01-27T19:04:07+00:00</updated><id>https://www.saikiransripada.com/get-the-file-extension-in-php</id><content type="html" xml:base="https://www.saikiransripada.com/get-the-file-extension-in-php/">&lt;p&gt;A simple function to get the extension of a file. Meet &lt;a href=&quot;https://php.net/pathinfo&quot; target=&quot;_blank&quot;&gt;pathinfo()&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$extension&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;pathinfo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;PATHINFO_EXTENSION&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Sai Kiran Sripada</name></author><summary type="html">A simple function to get the extension of a file. Meet pathinfo().</summary></entry><entry><title type="html">Always backup your database</title><link href="https://www.saikiransripada.com/always-backup-your-database/" rel="alternate" type="text/html" title="Always backup your database" /><published>2015-11-24T17:01:27+00:00</published><updated>2020-01-27T19:04:07+00:00</updated><id>https://www.saikiransripada.com/always-backup-your-database</id><content type="html" xml:base="https://www.saikiransripada.com/always-backup-your-database/">&lt;blockquote&gt;
   &lt;p&gt;Always backup your database before playing with it! Better safe than sorry!&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
-        <link>https://www.saikiransripada.com/always-backup-your-database/</link>
-        <guid isPermaLink="true">https://www.saikiransripada.com/always-backup-your-database/</guid>
-      </item>
-    
-      <item>
-        <title>Get the file extension in PHP</title>
-        <description>&lt;p&gt;A simple function to get the extension of a file. Meet &lt;a href=&quot;https://php.net/pathinfo&quot; target=&quot;_blank&quot;&gt;pathinfo()&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Sai Kiran Sripada</name></author><summary type="html">Always backup your database before playing with it! Better safe than sorry!</summary></entry><entry><title type="html">Include CSS or JavaScript in Moodle</title><link href="https://www.saikiransripada.com/include-css-or-javascript-in-moodle/" rel="alternate" type="text/html" title="Include CSS or JavaScript in Moodle" /><published>2015-11-20T17:01:27+00:00</published><updated>2020-01-27T19:04:07+00:00</updated><id>https://www.saikiransripada.com/include-css-or-javascript-in-moodle</id><content type="html" xml:base="https://www.saikiransripada.com/include-css-or-javascript-in-moodle/">&lt;p&gt;When writing a custom plugin, place CSS in a file called styles.css in the base directory of your plugin /plugin/styles.css. Moodle will automatically load the CSS file for you.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$extension&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;pathinfo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$filename&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;PATHINFO_EXTENSION&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-</description>
-        <pubDate>Tue, 24 Nov 2015 00:00:00 +0000</pubDate>
-        <link>https://www.saikiransripada.com/get-the-file-extension-in-php/</link>
-        <guid isPermaLink="true">https://www.saikiransripada.com/get-the-file-extension-in-php/</guid>
-      </item>
-    
-      <item>
-        <title>Include CSS or JavaScript in Moodle</title>
-        <description>&lt;p&gt;To include a CSS file in Moodle:&lt;/p&gt;
+&lt;p&gt;To include a CSS file in Moodle:&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-php&quot; data-lang=&quot;php&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$PAGE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;requires&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;css&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;moodle_url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'/path/to/file.css'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt; &lt;span class=&quot;cp&quot;&gt;?&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
@@ -165,12 +92,4 @@
 
 &lt;p&gt;Provide the relative path to the file (excluding document root).&lt;/p&gt;
 
-&lt;p&gt;When writing a custom plugin, place CSS in a file called &lt;code class=&quot;highlighter-rouge&quot;&gt;styles.css&lt;/code&gt; in the base directory of your plugin &lt;code class=&quot;highlighter-rouge&quot;&gt;/plugin/styles.css&lt;/code&gt;. Moodle will automatically load the CSS file for you.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
-        <link>https://www.saikiransripada.com/include-css-or-javascript-in-moodle/</link>
-        <guid isPermaLink="true">https://www.saikiransripada.com/include-css-or-javascript-in-moodle/</guid>
-      </item>
-    
-  </channel>
-</rss>
+&lt;p&gt;When writing a custom plugin, place CSS in a file called &lt;code class=&quot;highlighter-rouge&quot;&gt;styles.css&lt;/code&gt; in the base directory of your plugin &lt;code class=&quot;highlighter-rouge&quot;&gt;/plugin/styles.css&lt;/code&gt;. Moodle will automatically load the CSS file for you.&lt;/p&gt;</content><author><name>Sai Kiran Sripada</name></author><summary type="html">When writing a custom plugin, place CSS in a file called styles.css in the base directory of your plugin /plugin/styles.css. Moodle will automatically load the CSS file for you.</summary></entry></feed>
