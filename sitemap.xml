@@ -33,6 +33,23 @@
   
   
   <url>
+    <loc>https://www.saikiransripada.com/blog/</loc>
+    <xhtml:link rel="alternate" href="https://www.saikiransripada.com"/>
+    
+    
+    <changefreq>weekly</changefreq>
+    
+  </url>
+  
+  
+  
+
+  
+  
+  
+  
+  
+  <url>
     <loc>https://www.saikiransripada.com/</loc>
     <xhtml:link rel="alternate" href="https://www.saikiransripada.com"/>
     
@@ -67,40 +84,6 @@
 
   
 
-  
-
-  
-  
-  
-  
-  
-  <url>
-    <loc>https://www.saikiransripada.com/page/2/</loc>
-    <xhtml:link rel="alternate" href="https://www.saikiransripada.com"/>
-    
-    
-    <changefreq>weekly</changefreq>
-    
-  </url>
-  
-  
-  
-
-  
-  
-  
-  
-  
-  <url>
-    <loc>https://www.saikiransripada.com/page/3/</loc>
-    <xhtml:link rel="alternate" href="https://www.saikiransripada.com"/>
-    
-    
-    <changefreq>weekly</changefreq>
-    
-  </url>
-  
-  
   
 
 
